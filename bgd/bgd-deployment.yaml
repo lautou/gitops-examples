@@ -2,7 +2,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: bgd
   name: bgd
@@ -11,10 +10,8 @@ spec:
   selector:
     matchLabels:
       app: bgd
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: bgd
     spec:
@@ -24,5 +21,4 @@ spec:
         env:
         - name: COLOR
           value: "blue"
-        resources: {}
 ---
