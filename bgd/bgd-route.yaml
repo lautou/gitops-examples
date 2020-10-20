@@ -6,7 +6,7 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
-  host: "bgd.apps.myocp.sandbox995.opentlc.com"
+  host: "bgd.apps.myocp.sandbox1018.opentlc.com"
   port:
     targetPort: 8080
   to:
